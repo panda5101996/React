@@ -2119,7 +2119,7 @@ pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: .25rem;
+  border-radius: 0;
   -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
   transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -11861,12 +11861,12 @@ pre code {
 }
 
 .slick-prev:before {
-      content: '←';
+      content: 'â†';
 }
 
 .slick-next:before,
 [dir=rtl] .slick-prev:before {
-  content: '→';
+  content: 'â†’';
 }
 
 .slick-next {
@@ -11879,7 +11879,7 @@ pre code {
 }
 
 [dir=rtl] .slick-next:before {
-  content: 'â†';
+  content: 'Ã¢â€ Â';
 }
 
 .slick-dotted.slick-slider {
@@ -11936,7 +11936,7 @@ pre code {
   left: 0;
   width: 20px;
   height: 20px;
-      content: '•';
+      content: 'â€¢';
   text-align: center;
   opacity: .25;
   color: #000;
@@ -20629,9 +20629,11 @@ ul.list-cat-1 li a {  color: #9b9b9b;
 .tool-follow {
   overflow: hidden;
   padding: 20px;
-  -webkit-box-shadow: 0 0 2px #aaa;
-  box-shadow: 0 0 2px #aaa;
+  /* -webkit-box-shadow: 0 0 2px #aaa; */
+  /* box-shadow: 0 0 2px #aaa; */
   margin: 0 0 0 0;
+  border: 1px solid #d5d5d5;
+  border-top: 0;
 }
 
 .btn-follow {
@@ -22300,8 +22302,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  height: 38px;
 }
 
 .art-young h3 a {
@@ -24021,8 +24024,8 @@ form label input[type=checkbox], form label input[type=radio] {
 .hightlight-dark .art-hori.playing > a .tit {     background: #b63427; color: #fff; }
 .hightlight-dark .art-hori.watched > a:after {position: absolute; width: 100%; height: 100%; z-index: 1; background:#fff; opacity: 0.3; left: 0; top: 0; content: "";  }
 /*scroll-media*/
-.scroll-media { height: 1475px; overflow: hidden; }
-
+.scroll-media { height: 850px; overflow: hidden; }
+.block-video-bar { margin-bottom: 20px; }
 
 .inner-tab { padding: 0 20px 0 20px; }
 

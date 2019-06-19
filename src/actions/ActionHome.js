@@ -5,18 +5,12 @@ const api = require(`./../api/HomeGetAPI`);
 
 export function list_featured_news_home() {
     return (dispatch, getState) => {
-        return fetch(`http://apittc.tuoitre.vn:8082/ttc/site?type=feature&slug=ttc-home&region=1`,{
-                method: 'GET', // or 'PUT'
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization' : 'Bearer jx76-VNClfMIEZL9sewMJgz0boOHyOJvakUER8ne',
-                    'Req-From' : 'frontend'
-
-                }})
+        return fetch(`https://api.tuoitre.vn/mobileapp/catpage?token=da039e81&limit=8&page=1&cid=1`)
             .then(response => response.json())
-            .then(json => {
-                console.log(json);
-            })
+            .then(json => dispatch({
+                type: type.LIST_FEATURED_NEWS_HOME,
+                data: json
+            }))
     }
 }
 

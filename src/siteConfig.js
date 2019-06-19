@@ -1,5 +1,5 @@
 const siteConfig = {
-    baseUrl: 'http://localhost:3000/',
+    baseUrl: window.location.origin
 };
 
 module.exports = siteConfig;

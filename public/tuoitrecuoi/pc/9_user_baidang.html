@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TUỔI TRẺ CƯỜI | PROFILE NHÂN VẬT</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--  CSS - Includes Bootstrap -->
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <header>
+        <div class="header-top">
+            <div class="container clearfix">
+                <ul class="list-logo-top">
+                    <li class="fl"><a title="Tuổi Trẻ" href="#" rel="nofollow" target="_blank"><img src="img/Tuoi-tre-online.png" alt="logo tuổi trẻ "></a></li>
+                    <li class="fl"><a title="Tuổi trẻ cuối tuần" href="#" rel="nofollow" target="_blank"><img src="img/LogoTTCT.png" alt="logo tuổi trẻ TV"></a></li>
+                    <li class="fl"><a title="Tuổi trẻ TV" href="#" rel="nofollow" target="_blank"><img src="img/Tuoi-tre-tv.png" alt="logo tuổi trẻ TV"></a></li>
+                    <li class="link-login pull-right"><i class="icon-user"></i> <span><a href="#" title="">Đăng ký</a> | <a href="#" title="">Đăng nhập</a></span></li>
+                    <li class="pull-right"><a title="Hot Line" href="tel:0918033133"><i aria-hidden="true" class="icon icon-call"></i>Hotline: 0918.033.133</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="container clearfix">
+                <h1><a href="#" title="Tuổi Trẻ News" class="sprite-tvo logoheader"><img src="img/logo-ttc-pc.svg" alt=""></a></h1>
+                <div id="search-frm" class="frm-search fr">
+                    <input id="txtSearch" type="text" placeholder="Nhập nội dung cần tìm ..." class="txt-search">
+                    <button class="btn-search"><i class="icon icon-search"></i></button>
+                </div>
+                <ul class="list-social-top">
+                    <li><a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-menu ui sticky">
+            <div class="container">
+                <ul class="clearfix">
+                    <li class="active"><a href="#" title="ĐỜI CƯỜI">Tin tức</a></li>
+                    <li><a href="#" title="GIẢI TRÍ">Biếm họa</a></li>
+                    <li><a href="#" title="VIDEO">Video</a></li>
+                    <li class="send"><a class="btn-send" href="#" title="">+ Gửi bài</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner-top">
+            <div class="container"><img src="img/banner-980x90.jpg" alt=""></div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="outer outer-top scrollToOne">
+                <div class="rightbar">
+                    <div class="user-top">
+                        <div class="icon">
+                            <div class="avatar-upload">
+                                <div class="avatar-edit">
+                                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                    <label for="imageUpload" title="thay avatar"></label>
+                                </div>
+                                <div class="avatar-preview">
+                                    <div id="imagePreview" style="background-image: url(img/user.jpg);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-user">
+                            <h4><a href="#" title="">Ngọc Thanh</a></h4>
+                            <span>Tham gia: 26.02.2019</span>
+                            <span>Trạng thái: đã duyệt</span>
+                            <span>Giới tính: không xác định</span>
+                        </div>
+                        <a class="btn-setup" href="#"></a>
+                    </div>
+                </div>
+                <div class="left-bar">
+                    <div class="inner-bar scrollToTwo">
+                        <div class="">
+                            <nav class="user-tab">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active" id="nav-send-tab" data-toggle="tab" href="#nav-send" role="tab" aria-controls="nav-send" aria-selected="false">Gửi bài</a>
+                                    <a class="nav-item nav-link" id="nav-sent-tab" data-toggle="tab" href="#nav-sent" role="tab" aria-controls="nav-sent" aria-selected="false">Bài đã duyệt</a>
+                                    <a class="nav-item nav-link" id="nav-cm-tab" data-toggle="tab" href="#nav-cm" role="tab" aria-controls="nav-cm" aria-selected="true">Bình luận của bạn</a>
+                                    <a class="nav-item nav-link" id="nav-setup-tab" data-toggle="tab" href="#nav-setup" role="tab" aria-controls="nav-setup" aria-selected="false">Cài đặt tài khoản</a>
+                                </div>
+                            </nav>
+                            <div class="tab-content tab-user" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-send" role="tabpanel" aria-labelledby="nav-send-tab">
+                                    <div class="inner-tab">
+                                        <form class="frm-general frm-update">
+                                            <div class="form-group display-error">
+                                                <label>Tiêu đề *</label>
+                                                <input type="text" name="" class="form-control">
+                                                <span class="has-error">Vui lòng nhập tựa bài</span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Nội dung *</label>
+                                                <textarea class="form-control" placeholder="Viết nội dung của bạn ở đây, không quá 300 ký tự"></textarea>
+                                                <span class="has-error">Vui lòng nhập dán nhãn</span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>File đính kèm</label>
+                                                <input class="file-upload" type="file" name="upload" accept="">
+                                                <span class="has-error">Vui đính kèm file</span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>
+                                                    <input type="checkbox" name=""> Bài viết có tính nhạy cảm
+                                                </label>
+                                                <br>
+                                                <label>
+                                                    <input type="checkbox" name=""> Bạn là chủ nhân của bài gốc
+                                                </label>
+                                                <br>
+                                                <label class="rule display-error">
+                                                    <input type="checkbox" name=""> Khi bấm "Đăng ký" đồng thời bạn đã đồng ý với <a href="#"><strong>điều khoản</strong></a> của tòa soạn
+                                                    <span class="has-error">Vui lòng đồng ý với đều khoản của tòa soạn</span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn-cancel" type="button">Hủy bỏ</button>
+                                                <button class="btn-send" type="button">Gửi</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-sent" role="tabpanel" aria-labelledby="nav-sent-tab">
+                                    <div class="inner-tab">
+                                        <div class="block-post">
+                                            <article class="art-post">
+                                                <h4>Kinh hoàng gặp tử thần</h4>
+                                                <span class="time">Gửi ngày: 25.05.2019</span>
+                                                <div class="row">
+                                                    <figure class="col">
+                                                        <img src="img/photo/11-min.jpg" alt="">
+                                                    </figure>
+                                                    <figure class="col">
+                                                        <img src="img/photo/11-min.jpg" alt="">
+                                                    </figure>
+                                                    <figure class="col">
+                                                        <img src="img/photo/11-min.jpg" alt="">
+                                                    </figure>
+                                                </div>
+                                            </article>
+                                            <article class="art-post">
+                                                <h4>Mê tín và chánh tín</h4>
+                                                <span class="time">Gửi ngày: 25.05.2019</span>
+                                                <div class="post">
+                                                    <div class="post-file">
+                                                        <i class="icon icon-file-w"></i>
+                                                        <span>abc.doc</span>
+                                                    </div>
+                                                    <div class="post-file">
+                                                        <i class="icon icon-file-pdf"></i>
+                                                        <span>abc.pdf</span>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <article class="art-post">
+                                                <h4>Mê tín và chánh tín</h4>
+                                                <span class="time">Gửi ngày: 25.05.2019</span>
+                                                <div class="post">
+                                                    <div class="post-url">
+                                                        <input type="text" name="" value="https://tuoitre.vn/" readonly="">
+                                                    </div>
+                                                </div>
+                                            </article>
+                                            <div class="tool-bar">
+                                                <button type="button" class="btn-date btn-more">Xem thêm <i aria-hidden="true" class="fa fa-angle-down"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-cm" role="tabpanel" aria-labelledby="nav-cm-tab">
+                                    <div class="inner-tab">
+                                        <ul class="list-sort">
+                                            <li>
+                                                <span>Ngày</span>
+                                                <a class="btn-sort active" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <a class="btn-sort" href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <span>Thích</span>
+                                                <a class="btn-sort" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                <a class="btn-sort" href="#"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="list-cm-1">
+                                            <article class="art-cm">
+                                                <i class="icon icon-comment"></i>
+                                                <div class="tool-like">
+                                                    <span class="date">10:00 | 23.5.2018</span>
+                                                    <span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i> 245</span>
+                                                    <span class="count">trả lời 0</span>
+                                                </div>
+                                                <p> Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng - nằm trên đường Lê Lợi (Q.Hải Châu, TP Đà Nẵng) đã bị ném chất bẩn, xịt sơn lên tường rào vào tối qua (4-4). Sáng nay, người nhà ông Linh đã cho sơn lại cửa</p>
+                                                <h4><a href="#" title="">Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng</a></h4>
+                                            </article>
+                                            <article class="art-cm">
+                                                <i class="icon icon-comment"></i>
+                                                <div class="tool-like">
+                                                    <span class="date">10:00 | 23.5.2018</span>
+                                                    <span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i> 245</span>
+                                                    <span class="count">trả lời 0</span>
+                                                </div>
+                                                <p> Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng - nằm trên đường Lê Lợi (Q.Hải Châu, TP Đà Nẵng) đã bị ném chất bẩn, xịt sơn lên tường rào vào tối qua (4-4). Sáng nay, người nhà ông Linh đã cho sơn lại cửa</p>
+                                                <h4><a href="#" title="">Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng</a></h4>
+                                            </article>
+                                            <article class="art-cm">
+                                                <i class="icon icon-comment"></i>
+                                                <div class="tool-like">
+                                                    <span class="date">10:00 | 23.5.2018</span>
+                                                    <span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i> 245</span>
+                                                    <span class="count">trả lời 0</span>
+                                                </div>
+                                                <p> Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng - nằm trên đường Lê Lợi (Q.Hải Châu, TP Đà Nẵng) đã bị ném chất bẩn, xịt sơn lên tường rào vào tối qua (4-4). Sáng nay, người nhà ông Linh đã cho sơn lại cửa</p>
+                                                <h4><a href="#" title="">Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng</a></h4>
+                                            </article>
+                                            <article class="art-cm">
+                                                <i class="icon icon-comment"></i>
+                                                <div class="tool-like">
+                                                    <span class="date">10:00 | 23.5.2018</span>
+                                                    <span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i> 245</span>
+                                                    <span class="count">trả lời 0</span>
+                                                </div>
+                                                <p> Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng - nằm trên đường Lê Lợi (Q.Hải Châu, TP Đà Nẵng) đã bị ném chất bẩn, xịt sơn lên tường rào vào tối qua (4-4). Sáng nay, người nhà ông Linh đã cho sơn lại cửa</p>
+                                                <h4><a href="#" title="">Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng</a></h4>
+                                            </article>
+                                            <article class="art-cm">
+                                                <i class="icon icon-comment"></i>
+                                                <div class="tool-like">
+                                                    <span class="date">10:00 | 23.5.2018</span>
+                                                    <span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i> 245</span>
+                                                    <span class="count">trả lời 0</span>
+                                                </div>
+                                                <p> Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng - nằm trên đường Lê Lợi (Q.Hải Châu, TP Đà Nẵng) đã bị ném chất bẩn, xịt sơn lên tường rào vào tối qua (4-4). Sáng nay, người nhà ông Linh đã cho sơn lại cửa</p>
+                                                <h4><a href="#" title="">Ngôi nhà của ông Nguyễn Hữu Linh - cựu phó viện trưởng Viện KSND TP Đà Nẵng</a></h4>
+                                            </article>
+                                            <nav aria-label="navigation" class="pagging_1">
+                                                <ul class="pagination">
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Previous">
+                                                            <span aria-hidden="true">&laquo;</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#" aria-label="Next">
+                                                            <span aria-hidden="true">&raquo;</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-setup" role="tabpanel" aria-labelledby="nav-setup-tab">
+                                    <div class="inner-tab">
+                                        <h4 class="title-style">THÔNG TIN CÁ NHÂN</h4>
+                                        <form class="frm-update">
+                                            <div class="form-group">
+                                                <label>Họ và tên</label>
+                                                <div class="inner-form">
+                                                    <input class="form-control" type="text" name="" value="Ngọc Thanh">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Số điện thoại</label>
+                                                <div class="inner-form">
+                                                    <input class="form-control deactive" type="text" name="" value="Chưa có">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Giới tính</label>
+                                                <div class="inner-form">
+                                                    <select class="form-control deactive">
+                                                        <option>Chưa xác định</option>
+                                                        <option>Nam</option>
+                                                        <option>Nữ</option>
+                                                        <option>Khác</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <span class="line-border-1"></span>
+                                            <h4 class="title-style">Bảo mật</h4>
+                                            <div class="form-group">
+                                                <label>Email đăng nhập</label>
+                                                <div class="inner-form">
+                                                    <input class="form-control" type="text" name="" value="ngocthanh1999@gmail.com" readonly="">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Mật khẩu</label>
+                                                <div class="inner-form">
+                                                    <input class="form-control" type="password" name="" value="123456">
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-right outer-btn-right">
+                                                <button class="btn-cancel" type="button">Hủy bỏ</button>
+                                                <button class="btn-send" type="button">Lưu thay đổi</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-->
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <ul class="list-logo">
+                    <li class="fl"><a title="Tuổi Trẻ" href="#" rel="nofollow" target="_blank"><img src="img/Tuoi-tre-online.png" alt="logo tuổi trẻ "></a></li>
+                    <li class="fl"><a title="" href="#" rel="nofollow" target="_blank"><img src="img/LogoTTCT.png" alt=""></a></li>
+                    <li class="fl"><a title="Tuổi trẻ TV" href="#" rel="nofollow" target="_blank"><img src="img/Tuoi-tre-tv.png" alt="logo tuổi trẻ TV"></a></li>
+                </ul>
+                <ul class="list-social list-social-bottom">
+                    <li><a href="#" title=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <a class="logo-footer" href="#" title=""><img src="img/logo-ttc-footer.svg"></a>
+                <p class="fl">
+                    <strong>Tuổi Trẻ Cười Online</strong> <br>
+                    © Copyright 2019 TuoiTre Online, All rights reserved <br>
+                    ® Tuổi Trẻ Online giữ bản quyền nội dung trên website này
+                </p>
+                <p class="fr">
+                    <a href="#" title="">Thông tin Tòa soạn</a> -
+                    <a href="#" title="">Thông tin Thành Đoàn</a>
+                    <br>
+                    Liên hệ Quảng cáo: <a href="tel:02839974848" title="">0283.997.4848</a> - Hotline: <a href="tel:0918033133" title=""> 0918.033.133</a>
+                </p>
+            </div>
+        </div>
+    </footer><a href="javascript:void(0)" title="top" class="btn-top"><i class="fa fa-chevron-up"></i></a>
+    <script src="js/lib.min.js"></script>
+    <script src="js/start.min.js"></script>
+</body>
+<div class="modal fade modal-login" id="resetPassModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h4 class="title-modal">Quên mật khẩu</h4>
+                <form class="frm-general frm-update">
+                    <div class="form-group">
+                        <label>Nhập Email đăng ký</label>
+                        <input class="form-control" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-login" data-toggle="modal" data-target="#newPassModal" data-dismiss="modal">Gửi lại mật khẩu</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-login" id="newPassModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h4 class="title-modal">Thay đổi mật khẩu</h4>
+                <form class="frm-general">
+                    <div class="form-group">
+                        <label>Mật khẩu cũ</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <label>Mật khẩu mới</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <label>Nhập lại mật khẩu mới</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-login">Đồng ý</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-login" id="loginModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h4 class="title-modal">Đăng nhập </h4>
+                <form class="frm-general">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Mật khẩu</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn-login">Đăng nhập</button>
+                    </div>
+                    <div class="inner-frm">
+                        <a class="link-forgot" title="" data-toggle="modal" data-target="#resetPassModal" data-dismiss="modal">Quên mật khẩu?</a>
+                    </div>
+                </form>
+                <p class="text-center">Hoặc đăng nhập bằng</p>
+                <div class="outer-btn-social">
+                    <div class="col">
+                        <a class="btn-facebook" href="#" title=""> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    </div>
+                    <div class="col">
+                        <a class="btn-google" href="#" title=""><i class="fa fa-google" aria-hidden="true"></i> Google</a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <a class="link-register" data-toggle="modal" data-target="#registerModal" data-dismiss="modal"><i>Chưa có tài khoản? <strong> Đăng ký ngay</strong></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-login" id="registerModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h4 class="title-modal">Đăng ký </h4>
+                <form class="frm-general">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Họ và tên</label>
+                        <input class="form-control" type="text" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Mật khẩu</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <label>Xác nhận mật khẩu</label>
+                        <input class="form-control" type="password" name="pass">
+                    </div>
+                    <div class="form-group">
+                        <label>Mã xác nhận</label>
+                        <div class="inner-code">
+                            <input class="form-control" type="text" name="name">
+                            <div class="img-code">
+                                <img src="img/code.jpg" alt="">
+                            </div>
+                            <a class="btn-refesh" href="#">Lấy mã mới</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="">Khi bấm "Đăng ký" đồng thời bạn đã đồng ý với <a href="#"><strong>điều khoản</strong></a> của tòa soạn</label>
+                    </div>
+                    <button class="btn-login">Đăng ký</button>
+                </form>
+                <br>
+                <p class="text-center">Hoặc đăng ký bằng</p>
+                <div class="outer-btn-social">
+                    <div class="col">
+                        <a class="btn-facebook" href="#" title=""> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                    </div>
+                    <div class="col">
+                        <a class="btn-google" href="#" title=""><i class="fa fa-google" aria-hidden="true"></i> Google</a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <a class="link-register" data-toggle="modal" data-target="#loginModal" data-dismiss="modal"><i>Đã có tài khoản? <strong> Đăng nhập</strong></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalUpload" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h3 class="title-modal">Tải lên một bài</h3>
+                <p class="text-center"><i>Chất lượng hình ảnh dưới 5MB</i></p>
+                <div class="block-upload row">
+                    <div class="col-sm-12">
+                        <a class="btn-upload-lib" title="" data-toggle="modal" data-dismiss="modal" data-target="#modalInfo">
+                            <span><i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                Chọn ảnh từ thư viện</span>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="btn-url btn-img" data-toggle="modal" data-target="#modalUrl" data-dismiss="modal">
+                            <span><i class="fa fa-picture-o" aria-hidden="true"></i>
+                                Dán đường dẫn <br>URL ảnh</span>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="btn-url btn-video" href="#" data-toggle="modal" data-target="#modalUrl" data-dismiss="modal">
+                            <span><i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                Dán đường dẫn <br>URL Video</span>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="btn-url btn-video" href="#" data-toggle="modal" data-target="#modalUrl" data-dismiss="modal">
+                            <span><i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                Tải lên bài viết</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalUrl" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h3 class="title-modal">Tải lên đường dẫn</h3>
+                <form class="frm-general">
+                    <div class="form-group">
+                        <label>Đường dẫn</label>
+                        <input class="form-control" type="text" placeholder="http:/">
+                    </div>
+                    <p class="rule">Khi bấm "Đăng ký" đồng thời bạn đã đồng ý với <a href="#"><strong>điều khoản</strong></a> của tòa soạn</p>
+                    <div class="form-group text-center">
+                        <img src="img/capcha.jpg" alt="">
+                    </div>
+                    <div class="outer-btn-social">
+                        <div class="col">
+                            <a class="btn-cancel-1" href="#" title="">Quay lại</a>
+                        </div>
+                        <div class="col">
+                            <a class="btn-send-1" href="#" title="">Gửi</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalInfo" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <h3 class="title-modal">Thông tin bài của bạn</h3>
+                <form class="frm-general">
+                    <div class="form-group">
+                        <label>Tựa đề bài</label>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label>Dán nhãn</label>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" name=""> Bài viết có tính nhạy cảm
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name=""> Bạn là chủ nhân của bài gốc
+                        </label>
+                    </div>
+                    <p class="rule">Khi bấm "Đăng ký" đồng thời bạn đã đồng ý với <a href="#"><strong>điều khoản</strong></a> của tòa soạn</p>
+                    <div class="form-group text-center">
+                        <img src="img/capcha.jpg" alt="">
+                    </div>
+                    <div class="outer-btn-social">
+                        <div class="col">
+                            <a class="btn-cancel-1" href="#" title="">Quay lại</a>
+                        </div>
+                        <div class="col">
+                            <a class="btn-send-1" href="#" title="">Gửi</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
